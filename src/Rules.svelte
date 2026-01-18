@@ -801,6 +801,14 @@
 </section>
 
 <style>
+  @supports not (-webkit-background-clip: text) {
+    h2,
+    h3 {
+      -webkit-text-fill-color: initial;
+      color: var(--txt-dim);
+      background-image: none;
+    }
+  }
   :global(html) {
     scroll-behavior: smooth;
   }
@@ -1139,7 +1147,7 @@
     font-size: clamp(1.35rem, 2.2vw, 2.15rem);
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: transparent;
+    color: rgba(0, 0, 0, 0);
     background: linear-gradient(
       to bottom,
       oklch(100% 0 0) 0%,
@@ -1149,6 +1157,8 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transform: translateZ(0);
+    will-change: transform, filter;
     filter: drop-shadow(0 0 22px var(--gold-glow));
   }
   .panel-sub {
