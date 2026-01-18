@@ -1,0 +1,30 @@
+export const WARN = Object.freeze({
+  // Auth/connection
+  AUTH_FAIL: "AUTHENTICATION FAILURE",
+  AUTH_UNSUPPORTED: "Audio Context not supported or blocked.",
+  INVALID_COORDINATES: "INVALID COORDINATES",
+  CONNECTION_LOST: "CONNECTION LOST / ROOM TERMINATED",
+
+  // Lobby/room
+  NEED_NAME: "AGENT ID REQUIRED",
+  OPERATION_ACTIVE: "OPERATION ACTIVE",
+  SQUAD_FULL: "SQUAD FULL",
+  NEED_2P: "NEED 2+ OPERATIVES",
+
+  // Turn/action
+  WAIT_TURN: "WAIT YOUR TURN",
+  INSUFFICIENT_FUNDS: "INSUFFICIENT FUNDS",
+  MUST_COUP: "MUST COUP (10+ COINS)",
+  CANNOT_TARGET_SELF: "CANNOT TARGET SELF",
+  TARGET_ELIMINATED: "TARGET ELIMINATED",
+  CANNOT_ATTACK_ALLY: "CANNOT ATTACK ALLY",
+
+  // Exchange/cards
+  MUST_KEEP: (n) => `MUST KEEP ${n} CARDS`,
+  SELECT_CARDS: (n) => `SELECT ${n} CARDS`,
+});
+
+export const LOG = Object.freeze({
+  AUDIO_BLOCKED: "Audio Context not supported or blocked.",
+  AUTH_FAILED: "Auth Failed",
+});

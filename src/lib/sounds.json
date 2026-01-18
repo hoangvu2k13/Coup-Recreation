@@ -1,0 +1,18 @@
+{
+  "click": "/audio/mouse_click_sound.mp3",
+  "deny": "/audio/error_sound.mp3",
+  "toast": "/audio/toast_sound.aif",
+  "turn": "/audio/turn_sound.mp3",
+  "coin_gain": "/audio/coin_gain_sound.mp3",
+  "coin_spend": "/audio/coin_spend_sound.mp3",
+  "coin_drop": "/audio/coin_drop_sound.mp3",
+  "card_flip": "/audio/card_flip_sound.mp3",
+  "challenge": "/audio/challenge_sound.mp3",
+  "block": "/audio/block_sound.mp3",
+  "assassinate": "/audio/assassin_sound.mp3",
+  "coup": "/audio/coup_sound.mp3",
+  "kick": "/audio/kick_sound.mp3",
+  "ready": "/audio/ready_sound.mp3",
+  "fire_bg": "/audio/fireplace_background_sound.mp3",
+  "rain_bg": "/audio/rain_background_sound.mp3"
+}
